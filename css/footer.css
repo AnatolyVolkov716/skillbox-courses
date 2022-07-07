@@ -1,0 +1,25 @@
+.footer {
+  background: #2E2B44;
+}
+.footer__container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+}
+.footer__item {
+  width: 18px;
+  height: 18px;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 33px;
+}
+
+.footer__row {
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+}
